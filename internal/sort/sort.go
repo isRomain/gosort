@@ -24,8 +24,8 @@ func SortFiles(entries []os.DirEntry, folder string) {
 			var final = strings.Split(strings.ToLower(path[extWithPrefix:]), ".")
 
 			for p, e := range config.MyDict {
-				// p = path
-				// e = list of extensions
+				// p = path/chemin
+				// e = extensions
 				for i := range e {
 
 					if final[1] == e[i] {
