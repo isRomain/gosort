@@ -8,8 +8,16 @@ Fini les Téléchargements en bazar : GoSort trie tout automatiquement en une co
 
 ## Utilisation
 
+Pour lancer :
+
 ```bash
 go run ./cmd/gosort
+```
+
+Vous pouvez obtenir le binaire à la racine du projet à l'aide de la commande : 
+
+```bash
+go build ./cmd/gosort
 ```
 
 Le programme te demandera confirmation avant de déplacer les fichiers.
